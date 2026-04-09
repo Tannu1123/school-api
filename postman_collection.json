@@ -1,0 +1,67 @@
+{
+  "info": {
+    "_postman_id": "0ccea9c1-0e6d-4e5a-a30d-0f6370715bcf",
+    "name": "School API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "42541695"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/listSchools?latitude=19.07&longitude=72.87",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "listSchools"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "19.07"
+            },
+            {
+              "key": "longitude",
+              "value": "72.87"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"St. Xavier's High School\",\r\n  \"address\": \"Civil Lines, Nagpur\",\r\n  \"latitude\": 21.1498,\r\n  \"longitude\": 79.0806\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5000/addSchool",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "addSchool"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
