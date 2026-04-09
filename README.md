@@ -22,6 +22,14 @@ This is a REST API built using Node.js and Express for managing school data.
 - POST /addSchool - add a new school
 
 ## Postman Collection
+You can access the Postman collection for this API here:
+
+
+### How to use:
+1. Open Postman
+2. Click on **Import**
+3. Upload the downloaded `postman_collection.json`
+4. Start testing the API endpoints
 
 
 ## Live API
