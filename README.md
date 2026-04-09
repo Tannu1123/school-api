@@ -23,7 +23,7 @@ This is a REST API built using Node.js and Express for managing school data.
 
 ## Postman Collection
 You can access the Postman collection for this API here:
-
+https://github.com/Tannu1123/school-api/blob/main/postman_collection.json
 
 ### How to use:
 1. Open Postman
