@@ -1,6 +1,6 @@
 # School API
-
-This is a REST API built using Node.js and Express for managing school data.
+A RESTful API built using Node.js and Express.js to manage school data with location coordinates.  
+The project is connected to a MySQL database hosted on Railway and deployed on Render.
 
 ## Features
 - Add a school
@@ -9,16 +9,17 @@ This is a REST API built using Node.js and Express for managing school data.
 ## Tech Stack
 - Node.js
 - Express.js
-- MySQL
+- MySQL (Railway)
+- Render (Deployment)
+- Postman (API Testing)
 
 ## Setup Instructions
-
 1. Clone the repository: git clone https://github.com/Tannu1123/school-api.git
 2. Install Dependencies: npm install
 3. Run the server: node server.js
 
 ## API Endpoints
-- GET /listSchools - get all schools
+- GET /listSchools?latitude= longitude=  - get all schools with distance from user's co-ordinates
 - POST /addSchool - add a new school
 
 ## Postman Collection
@@ -33,3 +34,4 @@ https://github.com/Tannu1123/school-api/blob/main/postman_collection.json
 
 
 ## Live API
+https://school-api-r9a6.onrender.com/listSchools?latitude=19.07&longitude=72.87
